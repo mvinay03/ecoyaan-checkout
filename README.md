@@ -5,7 +5,7 @@ A simplified e-commerce checkout flow built for Ecoyaan, demonstrating Next.js S
 ## Deliverables
 
 - **GitHub Repository**: https://github.com/mvinay03/ecoyaan-checkout
-- **Live Demo**: https://ecoyaan-checkout.vercel.app
+- **Live Demo**: [https://ecoyaan-checkout.vercel.app](https://ecoyaan-checkout-omega.vercel.app/)
 - **Documentation**: This README file
 
 ## Project Overview
@@ -43,35 +43,15 @@ Tailwind CSS enables rapid UI development with a mobile-first responsive design.
 Static JSON data simulates a backend API response. An API route at /api/cart is also available to demonstrate API route functionality, though the main implementation uses direct data import for SSR.
 
 ## Project Structure
-ecoyaan-checkout/
-├── src/
-│ ├── app/
-│ │ ├── api/
-│ │ │ └── cart/
-│ │ │ └── route.ts
-│ │ ├── checkout/
-│ │ │ ├── page.tsx
-│ │ │ ├── address/
-│ │ │ │ └── page.tsx
-│ │ │ └── payment/
-│ │ │ └── page.tsx
-│ │ ├── layout.tsx
-│ │ └── page.tsx
-│ ├── components/
-│ │ ├── AddressForm.tsx
-│ │ ├── CartClient.tsx
-│ │ └── OrderSummary.tsx
-│ ├── context/
-│ │ └── CartContext.tsx
-│ ├── lib/
-│ │ └── mockData.ts
-│ └── types/
-│ └── index.ts
-├── public/
-├── next.config.ts
-├── package.json
-├── tailwind.config.ts
-└── README.md
+
+| Directory | Purpose |
+|-----------|---------|
+| `/src/app` | Next.js pages, API routes, and layout files |
+| `/src/components` | Reusable UI components |
+| `/src/context` | Global state management with Context API |
+| `/src/lib` | Mock data and utility functions |
+| `/src/types` | TypeScript interfaces and type definitions |
+| `/public` | Static assets like images and icons |
 
 ## Key Features
 
